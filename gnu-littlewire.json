@@ -1,0 +1,378 @@
+{
+  "components": {
+    "C1": {
+      "footprint": "cap_2p5mm_th", 
+      "layer": "top", 
+      "location": [
+        10.735247, 
+        6.726828
+      ], 
+      "rotate": 0, 
+      "silkscreen": {
+        "refdef": {
+          "location": [
+            4.0, 
+            0
+          ], 
+          "rotate": 0
+        }
+      }
+    }, 
+    "C2": {
+      "footprint": "round-cap", 
+      "layer": "top", 
+      "location": [
+        -21.308883, 
+        -7.826342
+      ], 
+      "silkscreen": {
+        "refdef": {
+          "location": [
+            -3.48567, 
+            -0.740391
+          ]
+        }
+      }
+    }, 
+    "D1": {
+      "footprint": "diode_th", 
+      "layer": "top", 
+      "location": [
+        1.538996, 
+        -6.128889
+      ], 
+      "rotate": 15
+    }, 
+    "D2": {
+      "footprint": "diode_th", 
+      "layer": "top", 
+      "location": [
+        1.538996, 
+        -8.668888
+      ], 
+      "rotate": 15
+    }, 
+    "IC1": {
+      "footprint": "attiny85_dip8", 
+      "layer": "top", 
+      "location": [
+        12.2849, 
+        -0.73
+      ], 
+      "rotate": 0, 
+      "silkscreen": {
+        "refdef": {
+          "rotate": 0
+        }
+      }
+    }, 
+    "J1": {
+      "footprint": "usb-type-a-male-WM17117", 
+      "layer": "top", 
+      "location": [
+        -26.101793, 
+        0
+      ], 
+      "rotate": -90
+    }, 
+    "J2": {
+      "footprint": "th_2x3_2p54mm", 
+      "layer": "top", 
+      "location": [
+        23.02484, 
+        -0.73
+      ], 
+      "rotate": -90, 
+      "silkscreen": {
+        "refdef": {
+          "location": [
+            7, 
+            -1
+          ], 
+          "rotate": 90
+        }
+      }
+    }, 
+    "J3": {
+      "footprint": "th_1x2_2p54mm", 
+      "layer": "top", 
+      "location": [
+        11.042774, 
+        -8.166395
+      ], 
+      "rotate": -90, 
+      "silkscreen": {
+        "refdef": {
+          "location": [
+            0, 
+            -4.0
+          ], 
+          "rotate": 90
+        }
+      }
+    }, 
+    "LED1": {
+      "footprint": "led-5mm", 
+      "layer": "top", 
+      "location": [
+        -20.765445, 
+        6.442251
+      ], 
+      "rotate": -90, 
+      "silkscreen": {
+        "refdef": {
+          "location": [
+            0, 
+            2.0
+          ], 
+          "show": true
+        }, 
+        "shapes": {
+          "show": false
+        }
+      }
+    }, 
+    "MH1": {
+      "footprint": "drill-2mm", 
+      "layer": "top", 
+      "location": [
+        17.628888, 
+        7.4
+      ], 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }, 
+        "shapes": {
+          "show": false
+        }
+      }
+    }, 
+    "MH2": {
+      "footprint": "drill-2mm", 
+      "layer": "top", 
+      "location": [
+        17.628888, 
+        -8.5
+      ], 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }, 
+        "shapes": {
+          "show": false
+        }
+      }
+    }, 
+    "R1": {
+      "footprint": "resistor_th", 
+      "layer": "top", 
+      "location": [
+        1.538996, 
+        6.975555
+      ], 
+      "rotate": -20
+    }, 
+    "R2": {
+      "footprint": "resistor_th", 
+      "layer": "top", 
+      "location": [
+        1.538996, 
+        4.435556
+      ], 
+      "rotate": -20
+    }, 
+    "R3": {
+      "footprint": "resistor_th", 
+      "layer": "top", 
+      "location": [
+        -0.961004, 
+        0.54
+      ]
+    }, 
+    "R4": {
+      "footprint": "resistor_th", 
+      "layer": "top", 
+      "location": [
+        -0.961004, 
+        -2.54
+      ]
+    }
+  }, 
+  "config": {
+    "name": "gnu-littlewire", 
+    "no-docs": false, 
+    "no-drill-index": false, 
+    "no-flashes": false, 
+    "no-layer-index": false, 
+    "rev": "second", 
+    "style-layout": "default", 
+    "units": "mm"
+  }, 
+  "config-filename": "boards/wuthering/wuthering.json", 
+  "distances": {
+    "buffer_from_pour_to": {
+      "board_outline": 0.2, 
+      "drill": 0.25, 
+      "pad": 0.25, 
+      "route": 0.25
+    }, 
+    "from-pour-to": {
+      "drill": 0.3, 
+      "outline": 0.25, 
+      "pad": 0.2, 
+      "route": 0.25
+    }, 
+    "soldermask": {
+      "circle-buffer": 0.05, 
+      "path-scale": 1.05, 
+      "rect-buffer": 0.05
+    }, 
+    "solderpaste": {
+      "circle-buffer": -0.1, 
+      "path-scale": 0.9, 
+      "rect-buffer": -0.1
+    }
+  }, 
+  "documentation": {
+    "board-details": {
+      "font-family": "Overlock-Regular-OTF-webfont", 
+      "font-size": "1.5mm", 
+      "letter-spacing": "0mm", 
+      "line-height": "1.5mm", 
+      "location": [
+        -3.7023978, 
+        -16.839088
+      ], 
+      "rotate": 0, 
+      "style": "fill", 
+      "type": "text", 
+      "value": "Board details:\nName: Little Wire GNU\nRevision: first\nDescription: a GNU-themed 'little wire', based on design from http://littlewire.cc\nLicense: GFDL v1.3 and CC BY-SA 2.0 (dual-licensed)\nDesign: Saar Drimer, Boldport"
+    }, 
+    "manufacturing": {
+      "font-family": "Overlock-Regular-OTF-webfont", 
+      "font-size": "1.5mm", 
+      "letter-spacing": "0mm", 
+      "line-height": "1.5mm", 
+      "location": [
+        -12.209393, 
+        -29.069284
+      ], 
+      "rotate": 0, 
+      "style": "fill", 
+      "type": "text", 
+      "value": "Manufacturing:\nRoHS and lead free compliant manufacturing process\nUnit of length: Millimetre (mm)\nNumber of layers: 2 ('top', 'bottom')\nBoard thickness: 1.6 mm\nMaterial: FR4 35/35 um copper\nSilkscreen: top, bottom, white\nSoldermask: top, bottom, green\nSurface finish: lead free"
+    }, 
+    "pcbmode": {
+      "font-family": "Overlock-Regular-OTF-webfont", 
+      "font-size": "1.2mm", 
+      "letter-spacing": "0mm", 
+      "line-height": "1.2mm", 
+      "location": [
+        -16.019383, 
+        -39.796533
+      ], 
+      "rotate": 0, 
+      "style": "fill", 
+      "type": "text", 
+      "value": "Designed with PCBmodE, an open source software\n     http://pcbmode.com\nStay updated:\n     @boldport @pcbmode http://boldport.com"
+    }
+  }, 
+  "drill-index": {
+    "location": [
+      29.690619, 
+      -6.178065
+    ]
+  }, 
+  "drills": {}, 
+  "files": {
+    "routing-data": "gnu-littlewire_routing.json", 
+    "routing-svg": "gnu-littlewire.svg"
+  }, 
+  "gerber": {
+    "decimals": 6, 
+    "digits": 6, 
+    "min-segment-length": 0.05, 
+    "steps-per-segment": 100
+  }, 
+  "outline": {
+    "shape": {
+      "height": 23.5, 
+      "radii": {
+        "bl": 2, 
+        "br": 2, 
+        "tl": 2, 
+        "tr": 2
+      }, 
+      "type": "path", 
+      "value": "m -27.685556,-0.093213 c 0,-2.1294394 -0.564444,-6.3633333 -0.564444,-6.3633333 -0.0077,-2.2715905 3.991612,-3.1912246 6.677663,-3.2823821 2.68605,-0.091157 3.628524,1.6065379 5.834017,1.3263017 2.205493,-0.2802362 3.053339,-3.2051873 7.2276395,-2.8407643 4.1743003,0.364422 3.3951588,3.1349174 7.77187132,3.0904665 C 3.6379034,-8.2073755 3.5884834,-10.910962 9.3568478,-10.629555 15.125212,-10.348148 28.25,-8.479225 28.25,-4.763213 c 0,0 -0.544041,2.9150716 -0.564444,4.67 -0.0204,1.7549284 0.564444,5.7988889 0.564444,5.7988889 -0.01742,3.3184683 -7.659687,4.3600311 -9.054587,4.6781001 -3.44089,0.743523 -9.6270882,1.068045 -13.4798552,0.817388 -3.852767,-0.250657 -6.14458349,-2.1420997 -8.68329,-1.8715456 -2.5387065,0.2705541 -3.5158446,1.8115076 -5.8205113,1.9108236 -2.3046665,0.09932 -4.1927185,-1.8746747 -6.4455545,-2.127254 -3.26651,-0.3662285 -2.83585,1.890357 -6.341923,1.786296 -3.506073,-0.10406 -6.610758,-2.4149195 -6.674279,-4.6293637 0,0 0.564444,-4.2338939 0.564444,-6.3633333 z", 
+      "width": 56.5
+    }
+  }, 
+  "shapes": {
+    "CP": {
+      "assembly": {
+        "refdef": {
+          "show": false
+        }
+      }, 
+      "footprint": "copper", 
+      "location": [
+        -2.961004, 
+        0
+      ]
+    }, 
+    "POUR": {
+      "assembly": {
+        "refdef": {
+          "show": false
+        }
+      }, 
+      "footprint": "pours", 
+      "location": [
+        0, 
+        0
+      ]
+    }, 
+    "SM": {
+      "assembly": {
+        "refdef": {
+          "show": false
+        }
+      }, 
+      "footprint": "soldermask", 
+      "location": [
+        0, 
+        0
+      ]
+    }, 
+    "SS": {
+      "assembly": {
+        "refdef": {
+          "show": false
+        }
+      }, 
+      "footprint": "silkscreen", 
+      "location": [
+        -2.961004, 
+        0
+      ]
+    }
+  }, 
+  "soldermask": {
+    "circle-buffer": 0.05, 
+    "path-scale": 1.05, 
+    "rect-buffer": 0.05
+  }, 
+  "solderpaste": {
+    "circle-buffer": -0.1, 
+    "path-scale": 0.9, 
+    "rect-buffer": -0.1
+  }, 
+  "stackup": {
+    "name": "two-layer"
+  }, 
+  "vias": {
+    "default-via": "VIA"
+  }
+}
